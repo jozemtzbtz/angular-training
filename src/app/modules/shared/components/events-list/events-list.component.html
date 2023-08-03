@@ -1,0 +1,7 @@
+{{ tittle }}
+
+<mat-selection-list>
+    <mat-list-item *ngFor="let event of eventsService.eventsList" (click)="navigateToEvent(event.id)">
+        {{ event.name }}
+    </mat-list-item>
+</mat-selection-list>

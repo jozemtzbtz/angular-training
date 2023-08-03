@@ -1,0 +1,25 @@
+.banner {
+    width: 100%;
+    height: 250px;
+}
+
+.main-layout {
+    display: flex;
+    flex-direction: row;
+
+
+    .section {
+        width: 50%;
+        padding: 3em;
+    
+        .section-tittle{
+            font-size: 3em;
+            line-height: 1em;
+        }
+
+        .section-text{
+            font-size: 1em;
+            line-height: 1em;
+        }
+    }
+}

@@ -1,0 +1,17 @@
+<img class="banner" src="assets/images/landing-banner.jpg"><img>
+<div class="main-layout">
+
+    <div class="section">
+        <h1 class="section-tittle">{{ tittle }}</h1>
+        <p class="section-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Mauris at elit elit. Praesent ut faucibus lectus.
+        </p>
+
+    </div>
+
+    <div class="section">
+        <h1 class="section-tittle">news</h1>
+        <app-events-list [tittle]="'Lista de eventos activos'" (eventClicked)="navigateToEvent($event)"> </app-events-list>
+    </div>
+</div>
